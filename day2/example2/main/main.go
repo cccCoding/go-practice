@@ -2,7 +2,7 @@ package main
 
 import(
 	"fmt"
-	a "awesomeProject/day2/example2/add"
+	a "go-practice/day2/example2/add"
 )
 
 func init() {

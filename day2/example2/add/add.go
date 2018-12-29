@@ -1,7 +1,7 @@
 package add
 
 import(
-	_ "awesomeProject/day2/example2/testinit"
+	_ "go-practice/day2/example2/testinit"
 )
 
 var Name string = "zhujiantao"

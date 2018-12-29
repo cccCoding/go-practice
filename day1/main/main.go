@@ -1,7 +1,7 @@
 package main
 
 import(
-	"awesomeProject/day1/calc"
+	"go-practice/day1/calc"
 	"fmt"
 )
 
