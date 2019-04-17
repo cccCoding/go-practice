@@ -5,13 +5,15 @@ import (
 	"sort"
 )
 
-//接口，定义一种规范
+//感受接口之美
 
 type Student struct {
 	Name string
 }
 
 type StudentArray []Student
+//实现以下三个方法，可以作为一种接口，传入sort.Sort方法进行排序
+//sort.Sort方法通过以下三个方法可进行排序操作
 
 func (a StudentArray) Len() int {
 	return len(a)
